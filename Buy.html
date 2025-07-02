@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <title>Ztread - Detail Produk</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css"><link rel="stylesheet" href="assets/css/templatemo-hexashop.css"><link rel="stylesheet" href="assets/css/owl-carousel.css"><link rel="stylesheet" href="assets/css/lightbox.css">
+    <style>#cart-count { background-color: #f00; color: white; border-radius: 50%; padding: 2px 6px; font-size: 10px; vertical-align: top; margin-left: -5px; display: none; }</style>
+</head>
+<body>
+    <header class="header-area header-sticky"><div class="container"><div class="row"><div class="col-12"><nav class="main-nav"><a href="index.html" class="logo"><div class="logo">ZTREAD</div></a><ul class="nav"><li><a href="index.html">Home</a></li><li class="submenu"><a href="javascript:;">Products</a><ul><li><a href="mens.html">Men's</a></li><li><a href="womens.html">Women’s</a></li><li><a href="kids.html">Kid's</a></li><li><a href="allproducts.html">All Products</a></li></ul></li><li class="submenu"><a href="javascript:;" class="active">Pages</a><ul><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact Us</a></li></ul></li><li><a href="explore.html">Explore</a></li><li><a href="keranjang.html">🛒<span id="cart-count"></span></a></li></ul><a class='menu-trigger'><span>Menu</span></a></nav></div></div></div></header>
+
+    <div class="page-heading" id="top"><div class="container"><div class="row"><div class="col-lg-12"><div class="inner-content"><h2 id="product-page-title">Detail Produk</h2><span>Lihat detail lengkap produk pilihanmu.</span></div></div></div></div></div>
+
+    <section class="section" id="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8"><div class="left-images"><img id="product-image-1" src="assets/images/single-product-01.jpg" alt=""><img id="product-image-2" src="assets/images/single-product-02.jpg" alt=""></div></div>
+                <div class="col-lg-4">
+                    <div class="right-content">
+                        <h4 id="product-name">Product Name</h4><span id="product-price" class="price">$0.00</span>
+                        <ul class="stars"><li><i class="fa fa-star"></i></li><li><i class="fa fa-star"></i></li><li><i class="fa fa-star"></i></li><li><i class="fa fa-star"></i></li><li><i class="fa fa-star"></i></li></ul>
+                        <span id="product-description">Product description will be loaded here.</span>
+                        <div class="quantity-content"><div class="left-content"><h6>Jumlah Pesanan</h6></div><div class="right-content"><div class="quantity buttons_added"><input type="button" value="-" class="minus"><input type="number" step="1" min="1" name="quantity" value="1" title="Qty" class="input-text qty text"><input type="button" value="+" class="plus"></div></div></div>
+                        <div class="total"><div id="add-to-cart-container" class="main-border-button"><a href="javascript:void(0);">Add To Cart</a></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer><div class="container"><div class="row"><div class="col-lg-3"><div class="first-item"><div class="logo"><img src="assets/images/ZTREADLOGO.png" alt="ZTREAD ecommerce templatemo"></div><ul><li><a href="#">Suka Karya, Jambi City, FL 33160, Indonesian</a></li><li><a href="#">ZTREAD@company.com</a></li><li><a href="#">010-020-0340</a></li></ul></div></div><div class="col-lg-3"><h4>Shopping &amp; Categories</h4><ul><li><a href="#">Men’s Shopping</a></li><li><a href="#">Women’s Shopping</a></li><li><a href="#">Kid's Shopping</a></li></ul></div><div class="col-lg-3"><h4>Useful Links</h4><ul><li><a href="#">Homepage</a></li><li><a href="#">About Us</a></li><li><a href="#">Help</a></li><li><a href="#">Contact Us</a></li></ul></div><div class="col-lg-3"><h4>Help &amp; Information</h4><ul><li><a href="#">Help</a></li><li><a href="#">FAQ's</a></li><li><a href="#">Shipping</a></li><li><a href="#">Tracking ID</a></li></ul></div><div class="col-lg-12"><div class="under-footer"><p>Copyright © 2022 ZTREAD Co., Ltd. All Rights Reserved.<ul><li><a href="https://wa.me/6281234567890"><i class="fa fa-whatsapp"></i></a></li><li><a href="https://instagram.com/ztreadshoes"><i class="fa fa-instagram"></i></a></li><li><a href="https://facebook.com/ztreadshoes"><i class="fa fa-facebook"></i></a></li><li><a href="tel:+6281234567890"><i class="fa fa-phone"></i></a></li></ul></p></div></div></div></div></footer>
+
+    <script src="assets/js/jquery-2.1.0.min.js"></script><script src="assets/js/custom.js"></script><script src="assets/js/cart.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const productDatabase = {
+            'men001': { name: 'Classic Spring', price: 120.00, desc: 'Sepatu kasual pria yang nyaman dan stylish untuk musim semi.', img1: 'assets/images/men-01.jpg', img2: 'assets/images/men-02.jpg' },'men002': { name: 'Air Force 1 X', price: 90.00, desc: 'Gaya ikonik dari Air Force 1 X, cocok untuk segala aktivitas.', img1: 'assets/images/men-02.jpg', img2: 'assets/images/men-01.jpg' },'men003': { name: 'Love Nana ‘20', price: 150.00, desc: 'Edisi spesial Love Nana 2020 dengan desain eksklusif.', img1: 'assets/images/men-03.jpg', img2: 'assets/images/shoes-men-4.jpg' },'men004': { name: 'Classic Spring v2', price: 120.00, desc: 'Versi terbaru dari Classic Spring dengan material yang ditingkatkan.', img1: 'assets/images/shoes-men-4.jpg', img2: 'assets/images/men-03.jpg' },'women001': { name: 'New Green Jacket', price: 75.00, desc: 'Sepatu hijau terbaru untuk wanita, bahan berkualitas tinggi.', img1: 'assets/images/women-01.jpg', img2: 'assets/images/women-02.jpg' },'women002': { name: 'Classic Dress', price: 45.00, desc: 'Sepatu klasik yang elegan untuk acara formal maupun santai.', img1: 'assets/images/women-02.jpg', img2: 'assets/images/women-01.jpg' },'women003': { name: 'Spring Collection', price: 130.00, desc: 'Koleksi musim semi yang cerah dan penuh gaya untuk wanita modern.', img1: 'assets/images/women-03.jpg', img2: 'assets/images/women-02.jpg' },'women004': { name: 'Classic Spring Women', price: 120.00, desc: 'Edisi wanita dari sepatu Classic Spring yang populer.', img1: 'assets/images/women-shoes4.jpg', img2: 'assets/images/women-shoes3.jpg' },'kid001': { name: 'School Collection', price: 80.00, desc: 'Koleksi sepatu sekolah yang kuat dan nyaman untuk anak.', img1: 'assets/images/kid-01.jpg', img2: 'assets/images/kid-shoes1.jpeg' },'kid002': { name: 'Summer Cap', price: 12.00, desc: 'Topi musim panas yang lucu untuk melindungi si kecil dari matahari.', img1: 'assets/images/kid-02.jpg', img2: 'assets/images/kid-shoes2.jpeg' },'kid003': { name: 'Classic Kid', price: 30.00, desc: 'Sepatu klasik untuk anak-anak, cocok untuk bermain dan bepergian.', img1: 'assets/images/kid-03.jpg', img2: 'assets/images/kid-shoes3.jpeg' },'kid004': { name: 'Classic Spring Kids', price: 120.00, desc: 'Edisi anak dari sepatu Classic Spring yang populer.', img1: 'assets/images/kid-shoes4.jpeg', img2: 'assets/images/kid-shoes1.jpeg' }
+        };
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+        const productData = productDatabase[productId];
+
+        if (productData) {
+            document.getElementById('product-page-title').textContent = productData.name;
+            document.getElementById('product-image-1').src = productData.img1;
+            document.getElementById('product-image-2').src = productData.img2;
+            document.getElementById('product-name').textContent = productData.name;
+            document.getElementById('product-price').textContent = '$' + productData.price.toFixed(2);
+            document.getElementById('product-description').textContent = productData.desc;
+
+            const addToCartContainer = document.getElementById('add-to-cart-container');
+            addToCartContainer.innerHTML = `<a href="javascript:void(0);" onclick="handleAddToCart()">Add To Cart</a>`;
+            
+            window.handleAddToCart = function() {
+                const quantity = parseInt(document.querySelector('.input-text.qty.text').value) || 1;
+                for (let i = 0; i < quantity; i++) {
+                    addToCart(productId, productData.name, productData.price, productData.img1);
+                }
+            }
+        } else {
+            document.getElementById('product').innerHTML = '<div class="container"><p class="text-center">Produk tidak ditemukan.</p></div>';
+        }
+    });
+    </script>
+</body>
+</html>
